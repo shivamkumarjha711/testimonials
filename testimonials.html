@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonial Slider</title>
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .slide {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 50%;
+            background-color: blueviolet;
+            padding-top: 30px;
+        }
+        .btn {
+            position: absolute;
+            padding: 3px 8px;
+            border: 0;
+            background-color: rgba(255, 67, 67, 0.632);
+            cursor: pointer;
+        }
+        .btnPre {
+            left: 440px;
+        }
+        .btnNxt {
+            right: 440px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="slide">
+            <img src="https://picsum.photos/id/202/150/150" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit totam enim obcaecati numquam perspiciatis voluptatum. Voluptates alias, dolorem explicabo optio nulla possimus corrupti doloremque eum incidunt inventore saepe velit? Facilis?</p>
+            <h3>Shivam</h3>
+        </div>
+
+        <div class="slide">
+            <img src="https://picsum.photos/id/203/150/150" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit totam enim obcaecati numquam perspiciatis voluptatum. Voluptates alias, dolorem explicabo optio nulla possimus corrupti doloremque eum incidunt inventore saepe velit? Facilis?</p>
+            <h3>Shivam</h3>
+        </div>
+
+        <div class="slide">
+            <img src="https://picsum.photos/id/204/150/150" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit totam enim obcaecati numquam perspiciatis voluptatum. Voluptates alias, dolorem explicabo optio nulla possimus corrupti doloremque eum incidunt inventore saepe velit? Facilis?</p>
+            <h3>Shivam</h3>
+        </div>
+
+        <div class="slide">
+            <img src="https://picsum.photos/id/206/150/150" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit totam enim obcaecati numquam perspiciatis voluptatum. Voluptates alias, dolorem explicabo optio nulla possimus corrupti doloremque eum incidunt inventore saepe velit? Facilis?</p>
+            <h3>Shivam</h3>
+        </div>
+        
+        <button class="btn btnPre" onclick="controller(1)">Previous</button>
+        <button class="btn btnNxt" onclick="controller(-1)">Next</button>
+    </div>
+
+    <script>
+        
+    </script>
+</body>
+</html>
